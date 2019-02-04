@@ -11,9 +11,9 @@ To see the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-• iOS  8.0+
-• Xcode 10.+
-• Swift 4.2+
+- iOS  8.0+
+- Xcode 10.+
+- Swift 4.2+
 
 ## Installation
 
