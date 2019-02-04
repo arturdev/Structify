@@ -1,11 +1,7 @@
 use_frameworks!
 
-target 'Structify_Example' do
-  pod 'Structify', :path => '../'
-
-  target 'Structify_Tests' do
-    inherit! :search_paths
-
-    
-  end
+target 'Structify_Tests' do
+    pod 'Reflection', '~> 0.18.1'
+    pod 'RealmSwift', '3.11.0'
+    pod 'Structify', :path => '../'    
 end

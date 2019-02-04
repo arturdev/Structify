@@ -1,0 +1,6 @@
+framework module Structify {
+  umbrella header "Structify-umbrella.h"
+
+  export *
+  module * { export * }
+}

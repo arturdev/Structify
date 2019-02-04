@@ -1,0 +1,34 @@
+PODS:
+  - Realm (3.11.0):
+    - Realm/Headers (= 3.11.0)
+  - Realm/Headers (3.11.0)
+  - RealmSwift (3.11.0):
+    - Realm (= 3.11.0)
+  - Reflection (0.18.1)
+  - Structify (0.1.0):
+    - Reflection (= 0.18.1)
+
+DEPENDENCIES:
+  - RealmSwift (= 3.11.0)
+  - Reflection (~> 0.18.1)
+  - Structify (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Realm
+    - RealmSwift
+    - Reflection
+
+EXTERNAL SOURCES:
+  Structify:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Realm: 92f09a102692b96a9a10e9617f214f15c5ab85fc
+  RealmSwift: 5f0481cd658bb751c509314b964a35eaa264d2cf
+  Reflection: 5fb13922df070c213928fb4627df258196684a6e
+  Structify: 9027a58d3b98bc0898762cb69f973fea327271c5
+
+PODFILE CHECKSUM: 8d1b71f69048dbe606b7aa380b4bd08b5e60166c
+
+COCOAPODS: 1.6.0.beta.2
