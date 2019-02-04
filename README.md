@@ -30,4 +30,4 @@ arturdev, mkrtarturdev@gmail.com
 
 ## License
 
-Structify is available under the MIT license. See the LICENSE file for more info.
+Structify is available under the MIT license. See the <a href = "https://github.com/arturdev/Structify/blob/master/LICENSE">LICENSE</a> file for more info.
