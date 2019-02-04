@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Structify_Example' do
+  pod 'Structify', :path => '../'
+
+  target 'Structify_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
