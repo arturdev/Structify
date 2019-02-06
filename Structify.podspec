@@ -7,6 +7,7 @@
 #
 
 Pod::Spec.new do |s|
+  s.swift_version     = '4.2'
   s.name             = 'Structify'
   s.version          = '0.1.0'
   s.summary          = 'Convert Swift structs to Objc Classes'
