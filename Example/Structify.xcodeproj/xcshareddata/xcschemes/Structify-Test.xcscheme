@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Structify.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DB6CB5F82495C35825E6752A0819EFBD"
+               BuildableName = "Structify.framework"
+               BlueprintName = "Structify"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -42,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "Structify_Example.app"
-            BlueprintName = "Structify_Example"
+            BlueprintIdentifier = "607FACE41AFB9204008FA782"
+            BuildableName = "Structify_Tests.xctest"
+            BlueprintName = "Structify_Tests"
             ReferencedContainer = "container:Structify.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,6 +75,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "607FACE41AFB9204008FA782"
+            BuildableName = "Structify_Tests.xctest"
+            BlueprintName = "Structify_Tests"
+            ReferencedContainer = "container:Structify.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,6 +93,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "607FACE41AFB9204008FA782"
+            BuildableName = "Structify_Tests.xctest"
+            BlueprintName = "Structify_Tests"
+            ReferencedContainer = "container:Structify.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

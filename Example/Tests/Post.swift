@@ -12,4 +12,5 @@ struct Post {
     var id: String = ""
     var title: String = ""
     var owner: User = User()
+    var likes: [User] = []
 }

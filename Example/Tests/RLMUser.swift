@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 import Structify
 
-class RLMUser: Object {
+class RLMUser: Object {        
     @objc open override class func primaryKey() -> String? {
         return "id"
     }

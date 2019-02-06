@@ -24,5 +24,6 @@ Structify provides simple way to convert Swift structs into classes and vice-a-v
 
   s.source_files = 'Structify/Classes/**/*'
   
-  s.dependency 'Reflection', '0.18.1'
+  s.dependency 'Reflection', '0.18.1'  
+  
 end

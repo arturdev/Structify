@@ -8,9 +8,11 @@
 
 import Foundation
 import RealmSwift
+import Realm
 import Structify
 
 class RLMPost: Object {
+    @objc dynamic var likes: RLMArray<RLMUser> = RLMArray(objectClassName: "RLMUser")
     @objc open override class func primaryKey() -> String? {
         return "id"
     }

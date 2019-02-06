@@ -6,6 +6,7 @@ PODS:
     - Realm (= 3.11.0)
   - Reflection (0.18.1)
   - Structify (0.1.0):
+    - RealmSwift (= 3.11.0)
     - Reflection (= 0.18.1)
 
 DEPENDENCIES:
@@ -27,7 +28,7 @@ SPEC CHECKSUMS:
   Realm: 92f09a102692b96a9a10e9617f214f15c5ab85fc
   RealmSwift: 5f0481cd658bb751c509314b964a35eaa264d2cf
   Reflection: 5fb13922df070c213928fb4627df258196684a6e
-  Structify: 9027a58d3b98bc0898762cb69f973fea327271c5
+  Structify: c30294f88865e890c5cd12e23a40ad02242e21e7
 
 PODFILE CHECKSUM: 8d1b71f69048dbe606b7aa380b4bd08b5e60166c
 

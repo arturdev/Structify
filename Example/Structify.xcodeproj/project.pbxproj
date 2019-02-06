@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03B85436BA08BFC9D7237734 /* Pods_Structify_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280520B63BDD3F459A37E298 /* Pods_Structify_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		754B74F92208BE6F00FF2541 /* RLMUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B74F72208BDBA00FF2541 /* RLMUser.swift */; };
 		754B74FA2208BE7400FF2541 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B74F52208BD8600FF2541 /* User.swift */; };
@@ -14,13 +15,11 @@
 		754B75002208CABC00FF2541 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B74FF2208CABC00FF2541 /* Location.swift */; };
 		754B75022208CB2100FF2541 /* RLMPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B75012208CB2100FF2541 /* RLMPost.swift */; };
 		754B75042208CB2A00FF2541 /* RLMLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B75032208CB2A00FF2541 /* RLMLocation.swift */; };
-		FD19A6C9B443C8B65CD84B4D /* Pods_Structify_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C710EE312B05A3EC76DEFD6F /* Pods_Structify_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		280520B63BDD3F459A37E298 /* Pods_Structify_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Structify_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6830556CAB54894647C0EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5595BB0DE1C3EAC8F7E93044 /* Pods-Structify_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Structify_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Structify_Tests/Pods-Structify_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		574FAB45FF80F6BCD760A778 /* Pods-Structify_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Structify_Tests.release.xcconfig"; path = "Target Support Files/Pods-Structify_Tests/Pods-Structify_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Structify_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Structify_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -32,7 +31,8 @@
 		754B75012208CB2100FF2541 /* RLMPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLMPost.swift; sourceTree = "<group>"; };
 		754B75032208CB2A00FF2541 /* RLMLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLMLocation.swift; sourceTree = "<group>"; };
 		78A8CC9A16E45D6B1FBAD8A8 /* Structify.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Structify.podspec; path = ../Structify.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C710EE312B05A3EC76DEFD6F /* Pods_Structify_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Structify_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8531C07E560107453B5BA73A /* Pods-Structify_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Structify_Tests.release.xcconfig"; path = "Target Support Files/Pods-Structify_Tests/Pods-Structify_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C2776D0D0093256BEBA049FB /* Pods-Structify_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Structify_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Structify_Tests/Pods-Structify_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD19A6C9B443C8B65CD84B4D /* Pods_Structify_Tests.framework in Frameworks */,
+				03B85436BA08BFC9D7237734 /* Pods_Structify_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,16 +50,16 @@
 		13EE51C60499B909EB0977B8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5595BB0DE1C3EAC8F7E93044 /* Pods-Structify_Tests.debug.xcconfig */,
-				574FAB45FF80F6BCD760A778 /* Pods-Structify_Tests.release.xcconfig */,
+				C2776D0D0093256BEBA049FB /* Pods-Structify_Tests.debug.xcconfig */,
+				8531C07E560107453B5BA73A /* Pods-Structify_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		1DE88BADA16388ED04D2BADE /* Frameworks */ = {
+		1A3E4643258429F5DEBA2F2E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C710EE312B05A3EC76DEFD6F /* Pods_Structify_Tests.framework */,
+				280520B63BDD3F459A37E298 /* Pods_Structify_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -71,7 +71,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				13EE51C60499B909EB0977B8 /* Pods */,
-				1DE88BADA16388ED04D2BADE /* Frameworks */,
+				1A3E4643258429F5DEBA2F2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,11 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Structify_Tests" */;
 			buildPhases = (
-				32193BBA37356B34FB6BBCDD /* [CP] Check Pods Manifest.lock */,
+				89F0653B70AF95014042C717 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				9C4839198C3330E332F7A4A1 /* [CP] Embed Pods Frameworks */,
+				4565CDDD79B30989C3035BFC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,7 +167,6 @@
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 1010;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -200,29 +199,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32193BBA37356B34FB6BBCDD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Structify_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9C4839198C3330E332F7A4A1 /* [CP] Embed Pods Frameworks */ = {
+		4565CDDD79B30989C3035BFC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -248,6 +225,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Structify_Tests/Pods-Structify_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89F0653B70AF95014042C717 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Structify_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -375,7 +374,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5595BB0DE1C3EAC8F7E93044 /* Pods-Structify_Tests.debug.xcconfig */;
+			baseConfigurationReference = C2776D0D0093256BEBA049FB /* Pods-Structify_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -391,13 +390,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 574FAB45FF80F6BCD760A778 /* Pods-Structify_Tests.release.xcconfig */;
+			baseConfigurationReference = 8531C07E560107453B5BA73A /* Pods-Structify_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -409,7 +407,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "";
 			};
 			name = Release;
 		};

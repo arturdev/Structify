@@ -14,9 +14,9 @@ struct User {
     var lastname: String = ""
     var age: Int = 0
     var avatar: String = ""
-    var x: Double = 0
-    var y: Int = 0
+    var salary: Double = 0
     var birthday: Date = Date()
     var location: Location = Location()
     var isAdmin: Bool = false
+    var someArray: [String] = []
 }
