@@ -17,8 +17,8 @@ public protocol SelfAware: class {
     static func awake()
 }
 
-open class Structify {
-    public static func go() {
+@objc open class Structify: NSObject {
+    @objc public static func go() {
         if !classNames.isEmpty {
             return
         }
@@ -78,7 +78,7 @@ open class Structify {
         return obj        
     }
 
-    private init() {}
+    private override init() {}
     fileprivate static var classNames: [String] = []
 }
 
@@ -194,3 +194,4 @@ public extension StructConvertible where Self: NSObject {
         return StructType.self
     }
 }
+

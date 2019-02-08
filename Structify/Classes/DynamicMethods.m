@@ -7,6 +7,8 @@
 //
 
 #import "DynamicMethods.h"
+#import <Structify/Structify-Swift.h>
+
 @import ObjectiveC.runtime;
 
 @interface NSString (CapitalizeFirst)
@@ -103,3 +105,11 @@ NSString * __nullable propertyClassName(NSString *name, Class className) {
     free(properties);
     return returnValue;
 }
+
+@implementation NSObject (LoadExtension)
+
++ (void)load {
+    [Structify go];
+}
+
+@end
