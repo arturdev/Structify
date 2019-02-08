@@ -1,6 +1,5 @@
 # Structify
 
-[![CI Status](https://img.shields.io/travis/arturdev/Structify.svg?style=flat)](https://travis-ci.org/arturdev/Structify)
 [![Version](https://img.shields.io/cocoapods/v/Structify.svg?style=flat)](https://cocoapods.org/pods/Structify)
 [![License](https://img.shields.io/cocoapods/l/Structify.svg?style=flat)](https://cocoapods.org/pods/Structify)
 [![Platform](https://img.shields.io/cocoapods/p/Structify.svg?style=flat)](https://cocoapods.org/pods/Structify)
