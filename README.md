@@ -8,7 +8,7 @@ Structify is designed to make your life much easier especially when you want to 
 The most obvious example is `Realm`.<br>
 
 For example, assume you have a struct named `User` and you want to save it to `Realm`'s db.<br>
-As you already know `Realm` doesn't support Swift structs, so the most common solution is making a pair class (wich will have the same properties) and manually writing convertion methods.
+As you already know `Realm` doesn't support Swift structs, so the most common solution is making a pair class (which will have the same properties) and manually writing convertion methods.
 
 #### Without Structify
 ```Swift
