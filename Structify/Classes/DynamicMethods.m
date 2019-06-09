@@ -47,7 +47,6 @@ id propertyGetter(id self, SEL _cmd) {
 void propertySetter(id self, SEL _cmd, id value) {
     NSString *propertyName = [[[NSStringFromSelector(_cmd) substringFromIndex:3] deCapitalizeFirst] removeLastChar];
     NSString *ivarName = [NSString stringWithFormat:@"_%@", propertyName];
-    
     objc_setAssociatedObject(self, NSSelectorFromString(ivarName), value, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 

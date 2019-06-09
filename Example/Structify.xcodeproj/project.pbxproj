@@ -204,8 +204,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Structify_Tests/Pods-Structify_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
@@ -214,8 +212,6 @@
 				"${BUILT_PRODUCTS_DIR}/Structify/Structify.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",

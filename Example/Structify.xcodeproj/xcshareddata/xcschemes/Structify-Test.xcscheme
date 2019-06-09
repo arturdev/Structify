@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DB6CB5F82495C35825E6752A0819EFBD"
+               BlueprintIdentifier = "0E183E1726028AF9B7E87D261BAEA1EE"
                BuildableName = "Structify.framework"
                BlueprintName = "Structify"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">

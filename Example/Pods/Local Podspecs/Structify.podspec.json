@@ -1,6 +1,7 @@
 {
   "name": "Structify",
-  "version": "0.1.0",
+  "swift_versions": "4.2",
+  "version": "0.1.1",
   "summary": "Convert Swift structs to Objc Classes",
   "description": "Structify provides simple way to convert Swift structs into classes and vice-a-versa",
   "homepage": "https://github.com/arturdev/Structify",
@@ -13,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/arturdev/Structify.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,9 +23,6 @@
   "dependencies": {
     "Reflection": [
       "0.18.1"
-    ],
-    "RealmSwift": [
-      "3.11.0"
     ]
   }
 }

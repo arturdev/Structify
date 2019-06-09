@@ -8,5 +8,5 @@
 
 #import <Foundation/Foundation.h>
 
-void addPropertyToClass(Class className, NSString *name, NSString *typeName);
-NSString * __nullable propertyClassName(NSString *name, Class className);
+void addPropertyToClass(Class _Nullable className, NSString * _Nullable name, NSString * _Nullable typeName);
+NSString * __nullable propertyClassName(NSString * _Nullable name, Class _Nullable className);
